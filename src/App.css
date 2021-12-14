@@ -16,19 +16,23 @@
   color: #ffffff;
   
 }
+
 .section {
   font-family: 'Inter', sans-serif;
+  padding: 10px 30px;
+  text-align: left;
+  font-size: 10.24px;
 }
+
 .innerWrapper {
   max-width: 317px;
   background-color: #161619;
   text-align: center;
   margin: 0 auto;
+  border-radius: 0 0 10px 10px;
   
 }
-.info {
-  
-}
+
 .info--img {
   width: 317px;
   height: 317px;
@@ -74,6 +78,38 @@
   display: flex;
   justify-content: center;
   gap: 5px;
+}
+
+.about {
+  /* margin: 10px 20px 20px 10px; */
+  /* display: flex; */
+}
+
+.about--title, .interests--title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer--ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.footer {
+  margin: 30px;
+  border-radius: 0 0 10px 10px;
+}
+.footer--li {
+  list-style-type: none;
+  font-size: 30px;
+}
+
+.about--paragraph, .interests--paragraph {
+  line-height: 15px;
+}
+
+.footer--li, .about--paragraph, .interests--paragraph{
+  color: #DCDCDC;
 }
 
 

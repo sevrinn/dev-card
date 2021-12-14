@@ -3,7 +3,7 @@ import { FaEnvelope, FaLinkedin } from 'react-icons/fa'
 import profilePic from '../images/profileImage.jpeg'
 const Info = () => {
   return (
-    <div className="innerWrapper section">
+    <div className="innerWrapper">
       <div className="info">
         <img src={profilePic} className="info--img" alt="Sev looking cute as hell. lol" />
         <h1 className="info--name">Sevrinn Welker</h1>
